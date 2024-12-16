@@ -13,24 +13,24 @@ User should be able to:
 ## Example
 ```bash
 # Adding a new task
-task-cli add "Buy groceries"
+task_tracker add "Buy groceries"
 # Output: Task added successfully (ID: 1)
 
 # Updating and deleting tasks
-task-cli update 1 "Buy groceries and cook dinner"
-task-cli delete 1
+task_tracker update 1 "Buy groceries and cook dinner"
+task_tracker delete 1
 
 # Marking a task as in progress or done
-task-cli mark in-progress 1
-task-cli mark done 1
+task_tracker mark in-progress 1
+task_tracker mark done 1
 
 # Listing all tasks
-task-cli list
+task_tracker list
 
 # Listing tasks by status
-task-cli list done
-task-cli list todo
-task-cli list in-progress
+task_tracker list done
+task_tracker list todo
+task_tracker list in-progress
 ```
 
 ## Task Properties
